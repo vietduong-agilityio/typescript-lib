@@ -1,0 +1,32 @@
+{
+  "name": "typescript-lib",
+  "version": "1.0.0",
+  "description": "A sample Typescript lib",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "test": "jest --config jestconfig.json",
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vietduong-agilityio/typescript-lib.git"
+  },
+  "keywords": ["typescript", "lib"],
+  "author": "VietDuong",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vietduong-agilityio/typescript-lib/issues"
+  },
+  "homepage": "https://github.com/vietduong-agilityio/typescript-lib#readme",
+  "devDependencies": {
+    "@types/jest": "^24.0.12",
+    "jest": "^24.8.0",
+    "ts-jest": "^24.0.2",
+    "typescript": "^3.4.5"
+  },
+  "files": [
+    "lib/**/*"
+  ]
+}
