@@ -1,1 +1,1 @@
-export * from './main';
+export { factorial, Greeter } from './calc';
