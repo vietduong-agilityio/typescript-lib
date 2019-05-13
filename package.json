@@ -1,6 +1,6 @@
 {
   "name": "@mr.siro/typescript-lib",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "A sample Typescript lib",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
