@@ -6,4 +6,4 @@ export const factorial = (num: number): number => {
   return num * factorial(num - 1);
 }
 
-export const Greeter = (name: string) => console.log(`Hello ${name} ha`);
+export const Greeter = (name: string) => console.log(`Hello ${name}`);
